@@ -19,9 +19,9 @@ custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]日本`[]韩
 custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🈲 IP归属地`select`[]日本`[]韩国`[]DIRECT`.*
 ;custom_proxy_group= 日本`select`(JP|日本|jp)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group= 韩国`url-test`(?!.*(韩国|KR|Korea|KOR|首尔|韩|韓))`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group= 韩国`url-test`(^(韩国|KR|Korea|KOR|首尔|韩|韓(?!.*)).*)`http://www.gstatic.com/generate_204`300,,50
 ;custom_proxy_group= 韩国`select`(KR|韩国|kr)`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group= 日本`url-test`(?!.*(日本|JP|Japan|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日))`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group= 日本`url-test`(^(日本|JP|Japan|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日(?!.*)).*)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group= ⚖️ 日本_负载均衡`load-balance`(^(?!.*(KR|Korea|KOR|首尔|韩|韓)).*)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group= ⚖️ 韩国_负载均衡`load-balance`(^(?!.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)).*)`http://www.gstatic.com/generate_204`300,,50
 
