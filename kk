@@ -26,6 +26,7 @@ custom_proxy_group= ⚖️ 日本_负载均衡`load-balance`(日本|川日|东�
 custom_proxy_group= ⚖️ 韩国_负载均衡`load-balance`(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group= 🔯 日本_故障转移`fallback`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group= 🔯 韩国_故障转移`fallback`(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=故障转移`fallback`.*`http://www.gstatic.com/generate_204`300
 
 enable_rule_generator=true
 overwrite_original_rules=true
