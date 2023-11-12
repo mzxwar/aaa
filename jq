@@ -18,7 +18,7 @@ ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ba
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-ruleset=DIRECT,[]GEOIP,CN,no-resolve
+ruleset=DIRECT,[]GEOIP,CN
 ruleset=🚀 节点选择,[]FINAL
 
 custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]⚖️ 日本_负载均衡`[]⚖️ 韩国_负载均衡`[]🔯 日本_故障转移`[]🔯 韩国_故障转移`[]DIRECT`.*
