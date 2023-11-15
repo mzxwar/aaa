@@ -1,7 +1,6 @@
 # DIY
 DOMAIN,noak.me
 DOMAIN-SUFFIX,noak.me
-DOMAIN-SUFFIX,superpowerdaily.com,REJECT
 
 # 向日葵
 DOMAIN-SUFFIX,oray.net
