@@ -1,10 +1,11 @@
 #!name=Node Detection Tool
 #!desc=适用于Loon的节点检测工具，可进行IP查询、多媒体检测等
-#!author=Loon
-#!homepage=https://github.com/Loon0x00/LoonExampleConfig
+#!author=老高
+##!homepage=https://github.com/Loon0x00/LoonExampleConfig
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Available_1.png
 
 [script]
-generic script-path=https://raw.githubusercontent.com/mzxwar/aaa/refs/heads/kk/SpeedTest.js,timeout=10,tag=节点网速测试,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Speedtest.png
+generic script-path=https://raw.githubusercontent.com/getsomecat/Loon/main/Net_Speedlite.js,timeout=10,tag=节点网速测试,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Speedtest.png
+#generic script-path=https://raw.githubusercontent.com/mzxwar/aaa/refs/heads/kk/SpeedTest.js,timeout=10,tag=节点网速测试,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Speedtest.png
 generic script-path=https://kelee.one/Resource/JavaScript/Node_detection_tool/LocationDetection.js, timeout=10, tag=地理位置查询,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Domestic.png
 generic script-path=https://kelee.one/Resource/JavaScript/Node_detection_tool/NodeUnlockDetection.js, timeout=20, tag=节点解锁查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png
